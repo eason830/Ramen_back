@@ -55,7 +55,7 @@ export const updateProductById = async (req, res) => {
     price: req.body.price,
     description: req.body.description,
     sell: req.body.sell,
-    categoey: req.body.categoey
+    category: req.body.category
   }
 
   if (req.file) {
