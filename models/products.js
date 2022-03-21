@@ -26,7 +26,7 @@ const productSchema = new mongoose.Schema({
     type: String,
     //  enum 值只能是陣列裡的類別
     enum: {
-      values: ['飾品', '皮件', '鞋子'],
+      values: ['豚骨', '醬油', '雞白湯', '叉燒'],
       message: '商品分類不存在'
     }
   }
